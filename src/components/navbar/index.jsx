@@ -43,16 +43,16 @@ const Navbar = () => {
   return (
     <div>
         <nav className='navbar'>
-            <div className='navbar__container'>
-                <Link to={'/'} className='navbar__container__logo'>
+            <div className='container'>
+                <Link to={'/'} className='logo'>
                     <FaReact size={30}/>
                 </Link>
             </div>
-            <ul className='navbar__container__menu'>
+            <ul className={`menu ${toggleIcon ? 'active' : ''}`}>           
                 {
                     data.map((item,key) => (
-                        <li className='navbar__container__menu__item'>
-                            <Link className='navbar__container__menu__item__links' to={item.to}> 
+                        <li className='menuItem'>
+                            <Link className='menuItemLinks' to={item.to}> 
                                 {item.label}
                             </Link>
                         </li>
