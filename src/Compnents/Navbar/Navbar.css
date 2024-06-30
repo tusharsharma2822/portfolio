@@ -1,0 +1,54 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 40px;
+}
+
+.logo{
+    width: 100px;
+    height: 75px;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.home:hover{
+    color: greenyellow;
+    border-bottom: 3px solid greenyellow;
+}
+
+.about:hover{
+    color: greenyellow;
+    border-bottom: 3px solid greenyellow;
+}
+
+.portfolio:hover{
+    color: greenyellow;
+    border-bottom: 3px solid greenyellow;
+}
+
+.contact:hover{
+    color: greenyellow;
+    border-bottom: 3px solid greenyellow;
+}
+
+.nav-connect{
+    padding: 20px 40px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, green 0.26%, yellow 102.6%);
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.nav-connect:hover{
+    transform: scale(1.05);
+
+}
