@@ -8,10 +8,10 @@ const Hero = () => {
     <div className='hero'>
         <img src={profile_img} alt='' className='profileImg'/>
         {/* <h2>Hello !</h2> */}
-        <h2>I am Tushar Sharma, FrontEnd Developer</h2>
+        <h2><span>I am Tushar Sharma,</span> FrontEnd Developer</h2>
         <h3>Computer Science and Engineering(CS-AIML)</h3>
         <p></p>
-        <div className='hero-connect'>
+        <div className='hero-action'>
             <div className='hero-connect'>Connect with me</div>
             <div className='hero-resume'>My Resume</div>
         </div>

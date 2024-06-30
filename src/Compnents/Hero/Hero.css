@@ -10,3 +10,62 @@
     flex-direction: column;
     gap: 35px;
 }
+
+.hero h2{
+    text-align: center;
+    width: 70%;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.hero h3{
+    text-align: center;
+    width: 70%;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.hero span{
+    background: linear-gradient(270deg, green 10%, yellow 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero p{
+    width: 50%;
+    font-size: 24px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.hero-action{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 500px;
+}
+
+.hero-connect{
+    padding: 25px 45px;
+    border-radius: 50px;
+    background: linear-gradient(264deg, green -5.09%, yellow 106.23%);
+    cursor: pointer;
+}
+
+.hero-resume{
+    padding: 25px 75px;
+    border-radius: 50px;
+    border: 2px solid springgreen;
+    cursor: pointer;
+}
+
+.hero-connect:hover{
+    border: 2px solid white;
+}
+
+.hero-resume:hover{
+    border-color: greenyellow;
+}
