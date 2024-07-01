@@ -21,33 +21,33 @@
 }
 
 .home:hover{
-    color: greenyellow;
-    border-bottom: 3px solid greenyellow;
+    color: pink;
+    border-bottom: 3px solid pink;
     transform: scale(1.05);
 }
 
 .about:hover{
-    color: greenyellow;
-    border-bottom: 3px solid greenyellow;
+    color: pink;
+    border-bottom: 3px solid pink;
     transform: scale(1.05);
 }
 
 .portfolio:hover{
-    color: greenyellow;
-    border-bottom: 3px solid greenyellow;
+    color: pink;
+    border-bottom: 3px solid pink;
     transform: scale(1.05);
 }
 
 .contact:hover{
-    color: greenyellow;
-    border-bottom: 3px solid greenyellow;
+    color: pink;
+    border-bottom: 3px solid pink;
     transform: scale(1.05);
 }
 
 .nav-connect{
     padding: 20px 40px;
     border-radius: 50px;
-    background: linear-gradient(267deg, green 0.26%, yellow 102.6%);
+    background: linear-gradient(267deg, #DA7C25 0.26%, #B923E1 102.6%);
     font-size: 22px;
     cursor: pointer;
     transition: 0.5s;

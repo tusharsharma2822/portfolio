@@ -3,6 +3,7 @@ import React from 'react';
 import './Hero.css';
 import profile_img from '../../assets/profile-img.png'
 
+
 const Hero = () => {
   return (
     <div className='hero'>
@@ -13,7 +14,7 @@ const Hero = () => {
         <p></p>
         <div className='hero-action'>
             <div className='hero-connect'>Connect with me</div>
-            <div className='hero-resume'>My Resume</div>
+            <div className='hero-resume'><a href='Tushar.pdf' download="Tushar Sharma.pdf">My Resume</a></div>
         </div>
     </div>
   )
