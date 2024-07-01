@@ -1,0 +1,53 @@
+.myWork{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+    padding-top: 350px;
+    padding-bottom: 200px;
+}
+
+.myWorkTitle{
+    position: relative;
+}
+
+.myWorkTitle h1{
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.myWorkTitle img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.myWork-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 80px;
+    margin-left: 125px;
+}
+
+.myWork-container img{
+    box-sizing: border-box;
+    width: 419px;
+    height: 280px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.myWork-container img:hover{
+    transform: scale(1.10);
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.projectImg{
+    width: 350px;
+    height: 200px;
+}
