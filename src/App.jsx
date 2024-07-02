@@ -4,6 +4,7 @@ import Navbar from './Compnents/Navbar/Navbar';
 import Hero from './Compnents/Hero/Hero';
 import About from './Compnents/About/About';
 import MyWork from './Compnents/MyWork/MyWork';
+import Contact from './Compnents/Contact/Contact';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Hero />
       <About />
       <MyWork />
+      <Contact />
     </div>
   )
 }
