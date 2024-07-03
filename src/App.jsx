@@ -5,7 +5,7 @@ import Hero from './Compnents/Hero/Hero';
 import About from './Compnents/About/About';
 import MyWork from './Compnents/MyWork/MyWork';
 import Contact from './Compnents/Contact/Contact';
-import Footer from './Compnents/Footer/Footer';
+// import Footer from './Compnents/Footer/Footer';
 
 const App = () => {
   return (
@@ -15,7 +15,7 @@ const App = () => {
       <About/>
       <MyWork/>
       <Contact/>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   )
 }

@@ -7,7 +7,7 @@ import mywork_data from '../../assets/mywork_data';
 
 const MyWork = () => {
   return (
-    <div className='myWork'>
+    <div id='Portfolio' className='myWork'>
         <div className='myWorkTitle'>
             <h1>My Works</h1>
             <img src={theme_profile} alt='' />

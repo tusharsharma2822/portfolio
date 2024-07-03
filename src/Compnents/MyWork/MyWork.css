@@ -5,8 +5,7 @@
     justify-content: center;
     gap: 80px;
     margin: 80px 170px;
-    padding-top: 350px;
-    padding-bottom: 200px;
+   
 }
 
 .myWorkTitle{
@@ -27,6 +26,7 @@
 }
 
 .myWork-container{
+    padding-top: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 80px;

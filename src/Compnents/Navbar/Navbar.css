@@ -20,29 +20,29 @@
     transition: 0.5s;
 }
 
-.home:hover{
+/* .home:hover{
     color: pink;
-    border-bottom: 3px solid pink;
+    border-bottom: 3px solid pink; 
     transform: scale(1.05);
 }
 
 .about:hover{
     color: pink;
-    border-bottom: 3px solid pink;
+    /* border-bottom: 3px solid pink;
     transform: scale(1.05);
 }
 
 .portfolio:hover{
     color: pink;
-    border-bottom: 3px solid pink;
+    /* border-bottom: 3px solid pink; 
     transform: scale(1.05);
 }
 
 .contact:hover{
     color: pink;
-    border-bottom: 3px solid pink;
+    /* border-bottom: 3px solid pink; 
     transform: scale(1.05);
-}
+} */
 
 .nav-connect{
     padding: 20px 40px;
@@ -56,4 +56,21 @@
 .nav-connect:hover{
     transform: scale(1.05);
 
+}
+
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.nav-menu li img{
+    display: flex;
+    margin: auto;
+}
+
+.anchor-link{
+    text-decoration: none;
+    color: white;
 }
