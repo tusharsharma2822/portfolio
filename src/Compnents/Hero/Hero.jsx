@@ -2,7 +2,8 @@
 import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import './Hero.css';
-import profile_img from '../../assets/profile-img.png'
+import profile_img from '../../assets/profile-img.png';
+import resume from '../../assets/Tushar.pdf';
 
 
 const Hero = () => {
@@ -15,7 +16,7 @@ const Hero = () => {
         <p></p>
         <div className='hero-action'>
             <div className='hero-connect'><AnchorLink className='anchor-link' offset={50} href='#Contact'>Connect with me</AnchorLink></div>
-            <div className='hero-resume'><a href='Tushar.pdf' download="Tushar Sharma.pdf">My Resume</a></div>
+            <div className='hero-resume'><a href={resume} download="Tushar Sharma.pdf">My Resume</a></div>
         </div>
     </div>
   )
